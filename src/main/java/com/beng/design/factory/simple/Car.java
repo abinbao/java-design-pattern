@@ -1,4 +1,4 @@
-package com.beng.design.factory;
+package com.beng.design.factory.simple;
 
 /**
  * @author apple
