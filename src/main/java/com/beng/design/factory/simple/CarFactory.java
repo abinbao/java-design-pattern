@@ -2,8 +2,6 @@ package com.beng.design.factory.simple;
 
 /**
  * 简单工厂模式（违反开闭原则）
- * 
- * @author apple
  */
 public class CarFactory {
 
@@ -13,9 +11,9 @@ public class CarFactory {
 
     public static Car createCar(String type) {
         if ("audi".equals(type)) {
-            return new Audi();
+            return createAudi();
         } else if ("byd".equals(type)) {
-            return new Byd();
+            return createByd();
         } else {
             return null;
         }
